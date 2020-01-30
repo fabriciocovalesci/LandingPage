@@ -1,11 +1,48 @@
 
 
-.jumbotron {
-    background-color: #009988;
 
+html {
+    height: 100%;
+    width: auto;
 }
 
-.alinha-img {
-    margin: -32px;
-    display: inline-block;
+.parque {
+    color: #FFF;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 20px;
+    width: 65%;
+    border-radius: 5px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Helvética';
+}
+
+.parque2 {
+    color: #FFF;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 20px;
+    width: 65%;
+    border-radius: 5px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s;
+    text-align: center;
+}
+
+
+
+.bela-piscina {
+    color: #FFF;
+    background-color: rgba(0, 0, 0, .5); 
+    width: 100%;
+    border-radius: 0px 0px 40px 40px;
+    height: 565px;
+    
 }
