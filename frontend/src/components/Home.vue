@@ -1,7 +1,7 @@
 <template>
   <div>
       <div class="home">
-        <img src="@/assets/foto-cabecalho.jpg" class="responsive"/>
+        <img src="@/assets/inicio.jpg" class="responsive"/>
             <div class="home-filho">
                 <h1>Parque Aquático Alegria</h1>
                 <p>Venha conhecer o incrível parque aquático da metrópoli<br><strong>Belas piscinas!</strong></br></p>

@@ -27,7 +27,7 @@ body {
 }
 
 nav {
-  background-color: rgba(22, 20, 20, 0.5);
+  background: rgba(8, 7, 8, 0.83);
   opacity: 0.9;
   padding: 25px ;
   width: 100%;
@@ -49,7 +49,7 @@ li {
 }
 
 li:hover{
-  color: #000000;
+  color: #688f91;
 }
 
 </style>
