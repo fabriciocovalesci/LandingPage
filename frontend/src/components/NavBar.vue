@@ -1,55 +1,41 @@
 <template>
-  <div class="hello">
-   <nav>
-     <ul class="menu">
-       <li>Home</li>
-       <li>Sobre Nós</li>
-       <li>Localização</li>
-       <li>Contato</li>
-     </ul>
-   </nav>
+  <div>
+    <b-navbar toggleable type="dark" variant="dark">
+      <div class="mb-2">
+        <b-navbar-brand href="#"
+          ><b-avatar
+            src="http://ayoola.co/wp-content/uploads/2016/03/LOGOMARCA-LIQUED-redesocial.png"
+          ></b-avatar
+        ></b-navbar-brand>
+      </div>
+      <b-navbar-toggle target="navbar-toggle-collapse">
+        <template v-slot:default="{ expanded }">
+          <b-icon v-if="expanded" icon="chevron-bar-up"></b-icon>
+          <b-icon v-else icon="chevron-bar-down"></b-icon>
+        </template>
+      </b-navbar-toggle>
+
+      <b-collapse id="navbar-toggle-collapse" is-nav>
+        <b-navbar-nav class="ml-auto">
+          <b-nav-item href="#">Home</b-nav-item>
+          <b-nav-item href="#">Sobre Nós</b-nav-item>
+          <b-nav-item href="#">Localização</b-nav-item>
+          <b-nav-item href="#">Contato</b-nav-item>
+        </b-navbar-nav>
+      </b-collapse>
+    </b-navbar>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'nav-bar'
-}
+  name: "nav-bar"
+};
 </script>
 
 <style scoped>
-@import 'reset-css';
-@import url('https://fonts.googleapis.com/css?family=Lobster+Two&display=swap');
-
-body {
-  margin: 0;
-  line-height: 1;
-}
-
-nav {
-  background: rgba(8, 7, 8, 0.83);
-  opacity: 0.9;
-  padding: 25px ;
-  width: 100%;
-  margin: 0 auto;
-}
-.menu{
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-  justify-content: center;
-  width: 100%;
-}
-
-li {
-  padding: 0 30px;  
-  font-family: 'Lobster Two', cursive;
-  font-size: 2em;
-  color: aliceblue;
-}
-
-li:hover{
-  color: #688f91;
-}
-
+@import "reset-css";
+@import url("https://fonts.googleapis.com/css?family=Lobster+Two&display=swap");
+@import "bootstrap-vue/dist/bootstrap-vue.css";
+@import "bootstrap/dist/css/bootstrap.css";
 </style>
