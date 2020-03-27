@@ -1,56 +1,67 @@
 <template>
-  <div>
-      <div class="home">
-        <img src="@/assets/inicio.jpg" class="responsive"/>
-            <div class="home-filho">
-                <h1>Parque Aquático Alegria</h1>
-                <p>Venha conhecer o incrível parque aquático da metrópoli<br><strong>Belas piscinas!</strong></br></p>
-        </div>
-      </div>
+  <div class="home">
+    <b-container fluid class="p-4 bg-dark">
+      <b-row>
+        <b-col>
+          <b-img
+            thumbnail
+            fluid
+            src="https://picsum.photos/250/250/?image=54"
+            alt="Image 1"
+          ></b-img>
+        </b-col>
+        <b-col>
+          <b-img
+            thumbnail
+            fluid
+            src="https://picsum.photos/250/250/?image=228"
+            alt="Image 2"
+          ></b-img>
+        </b-col>
+        <b-col>
+          <b-img
+            thumbnail
+            fluid
+            src="https://picsum.photos/250/250/?image=59"
+            alt="Image 3"
+          ></b-img>
+        </b-col>
+      </b-row>
+    </b-container>
+    <div class="principal ">
+      <b-jumbotron bg-variant="dark" text-variant="white" border-variant="dark">
+        <template v-slot:header>Parque Aquático Alegria</template>
+
+        <template v-slot:lead>
+          Venha conhecer o incrível parque aquático.
+        </template>
+
+        <hr class="my-4" />
+
+        <p>
+          Belas piscinas!
+        </p>
+      </b-jumbotron>
+    </div>
   </div>
 </template>
 
 <script>
-
 export default {
-  name: 'home'
-}
+  name: "home"
+};
 </script>
 
-<style>
-@import url('https://fonts.googleapis.com/css?family=Baloo+2&display=swap');
+<style scoped>
+@import url("https://fonts.googleapis.com/css?family=Baloo+2&display=swap");
+@import "bootstrap-vue/dist/bootstrap-vue.css";
+@import "bootstrap/dist/css/bootstrap.css";
 
-body {
-  margin: 0;
-}
-
-.home {
-    display: flex;
-    width: 50%;
-    justify-content: space-between;
-}
-
-.home-filho{
-
-    width: 100%;
-    font-family: 'Baloo 2', cursive;
-    text-align: center;
-    flex: none;
-    align-self: center;
-  
-}
-
-.home-filho h1{
-    font-size: 3em;
-}
-
-.home-filho p {
-    font-size: 20px;
-}
-
-.responsive{
-    display: flexbox;
-    max-width: 100%;
-    height: auto;
+.principal {
+  width: 100%;
+  height: calc(100vh - 350px);
+  text-align: center;
+  font-family: "Baloo 2";
+  color: white !important;
 }
 </style>

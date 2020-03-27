@@ -6,20 +6,20 @@
 </template>
 
 <script>
-import NavBar from './components/NavBar'
-import Home from './components/Home'
+import NavBar from "./components/NavBar";
+import Home from "./components/Home";
 
 export default {
-    components: {
-        NavBar,
-        Home
-    }
- 
-}
+  components: {
+    NavBar,
+    Home
+  }
+};
 </script>
 
 <style>
 body {
   margin: 0;
+  width: 100%;
 }
 </style>
