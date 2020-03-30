@@ -2,11 +2,11 @@
   <div>
     <b-navbar toggleable type="dark" variant="dark">
       <div class="mb-2">
-        <b-navbar-brand href="#"
-          ><b-avatar
+        <b-navbar-brand href="#">
+          <b-avatar
             src="http://ayoola.co/wp-content/uploads/2016/03/LOGOMARCA-LIQUED-redesocial.png"
-          ></b-avatar
-        ></b-navbar-brand>
+          ></b-avatar>
+        </b-navbar-brand>
       </div>
       <b-navbar-toggle target="navbar-toggle-collapse">
         <template v-slot:default="{ expanded }">
