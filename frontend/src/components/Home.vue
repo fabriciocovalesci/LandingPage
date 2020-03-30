@@ -1,12 +1,12 @@
 <template>
   <div class="home">
-    <b-container fluid class="p-4 bg-dark">
+    <b-container fluid class="p-4 bg-dark bv-example-row p-4">
       <b-row>
-        <b-col>
+        <b-col sm="4">
           <b-img
             thumbnail
             fluid
-            src="https://picsum.photos/250/250/?image=54"
+            src="https://cdn.desapega.net/thumbs/620x400/cd/c42b50246760e62bf0813bf8282ed9f17341157a6b0fa53bc9cf4878272c5a.jpg"
             alt="Image 1"
           ></b-img>
         </b-col>
@@ -14,7 +14,7 @@
           <b-img
             thumbnail
             fluid
-            src="https://picsum.photos/250/250/?image=228"
+            src="https://cdn.desapega.net/thumbs/620x400/14/5c9367046b28a6f36b957c78f91dc0fda1d231d939c6ed70e1daff3014dfc9.jpg"
             alt="Image 2"
           ></b-img>
         </b-col>
@@ -22,7 +22,7 @@
           <b-img
             thumbnail
             fluid
-            src="https://picsum.photos/250/250/?image=59"
+            src="https://img.lacadordeofertas.com.br/site/OTI3OV8vdG1wL3BocHRPaXhicV8xNTExMTg2NDI2.jpg"
             alt="Image 3"
           ></b-img>
         </b-col>
