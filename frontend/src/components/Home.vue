@@ -30,7 +30,7 @@
     </b-container>
     <div class="principal ">
       <b-jumbotron bg-variant="dark" text-variant="white" border-variant="dark">
-        <template v-slot:header>Parque Aquático Alegria</template>
+        <img src="@/assets/banner.png" alt="fot banner" class="banner" />
 
         <template v-slot:lead>
           Venha conhecer o incrível parque aquático.
@@ -63,6 +63,20 @@ export default {
   text-align: center;
   font-family: "Baloo 2";
   color: white !important;
+}
+
+.banner {
+  object-fit: cover;
+  object-position: 0 80%;
+  height: 300px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .banner {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
 }
 
 .belas {
