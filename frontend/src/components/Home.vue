@@ -8,6 +8,7 @@
             fluid
             src="https://cdn.desapega.net/thumbs/620x400/cd/c42b50246760e62bf0813bf8282ed9f17341157a6b0fa53bc9cf4878272c5a.jpg"
             alt="Image 1"
+            class="efeito"
           ></b-img>
         </b-col>
         <b-col>
@@ -16,6 +17,7 @@
             fluid
             src="https://cdn.desapega.net/thumbs/620x400/14/5c9367046b28a6f36b957c78f91dc0fda1d231d939c6ed70e1daff3014dfc9.jpg"
             alt="Image 2"
+            class="efeito"
           ></b-img>
         </b-col>
         <b-col>
@@ -24,6 +26,7 @@
             fluid
             src="https://img.lacadordeofertas.com.br/site/OTI3OV8vdG1wL3BocHRPaXhicV8xNTExMTg2NDI2.jpg"
             alt="Image 3"
+            class="efeito"
           ></b-img>
         </b-col>
       </b-row>
@@ -77,6 +80,11 @@ export default {
     width: 100%;
     height: auto;
   }
+}
+
+.efeito:hover {
+  transform: scale(1.1) !important;
+  transition: transform 0.2s;
 }
 
 .belas {
