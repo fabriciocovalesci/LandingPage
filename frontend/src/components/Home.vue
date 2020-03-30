@@ -38,7 +38,7 @@
 
         <hr class="my-4" />
 
-        <p>
+        <p class="belas">
           Belas piscinas!
         </p>
       </b-jumbotron>
@@ -63,5 +63,10 @@ export default {
   text-align: center;
   font-family: "Baloo 2";
   color: white !important;
+}
+
+.belas {
+  font-size: 2em;
+  color: #8a2be2;
 }
 </style>
