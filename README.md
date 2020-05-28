@@ -8,3 +8,4 @@ Landing page sobre parque aquático Alegria, deverá ser uma página responsiva 
 - Fazer git clone 
 - Realize as modificações
 - Faz pull request
+
