@@ -1,6 +1,10 @@
 <template>
   <div>
     <h1>Contato</h1>
+    <p>Email: belaspiscina@agua.com</p>
+    <p>Rua: Alamedas nº 222</p>
+    <p>Telefone: (54) 9999-8888</p>
+    <p>Cidade: Erechim - RS</p>
   </div>
 </template>
 
