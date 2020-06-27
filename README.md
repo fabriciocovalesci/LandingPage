@@ -9,3 +9,5 @@ Landing page sobre parque aquático Alegria, deverá ser uma página responsiva 
 - Realize as modificações
 - Faz pull request
 
+atualizando...
+
